@@ -8,7 +8,7 @@ export default defineConfig({
       targets: [
         {
           src: 'src/assets/cartas/*', // 📂 Ruta de imágenes en tu proyecto
-          dest: 'img' // 📂 Carpeta de destino en dist
+          dest: 'assets/cartas' // 📂 Carpeta de destino en dist
         }
       ]
     })
